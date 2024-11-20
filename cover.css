@@ -1,0 +1,53 @@
+.background {
+    width: 500px;
+    height: 700px;
+    background: fixed rgb(243, 186, 28);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.titlesquare {
+    width: 250px;
+    height: 250px;
+    background: rgb(168, 25, 0);
+    position: relative;
+    left: 50%;
+    top: 10%;
+    animation: rotate 1s;
+}
+
+@keyframes rotate {
+    0% { transform:rotate(0deg); }
+    100% { transform:rotate(360deg); }
+}
+
+.title {
+    font-family: "Uni Heavy";
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    background-image: url(Achebe.png);
+    background-size: cover;
+    position: absolute;
+    left: 0%;
+    top: 46%;
+    animation: rotate 2s;
+}
+@keyframes rotate {
+    0% { transform:rotate(0deg); }
+    100% { transform:rotate(360deg); }
+}
+
+@font-face {
+    font-family: 'Uni Heavy';
+    src: url(../fonts/UniSansHeavy.otf);
+}
+
+
